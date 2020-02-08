@@ -1,0 +1,90 @@
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e9ebee;
+    color: white;
+}
+
+main{
+    overflow-y: scroll; 
+    height:fit-content;
+    
+
+}
+
+#facebook{
+    width: 80%;
+}
+
+header{
+    background-color: #3b5998;
+    padding: px 10px;
+}
+
+header h1{
+    display: inline;
+    text-align: left;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: xx-large;    
+}
+
+header input{
+    border: 1px solid #111111;
+    border-radius: 0px;
+}
+
+#login{
+    text-align: right;
+    
+}
+
+#right{
+    position: absolute;
+    right: 10%;
+    color: #333333;
+    margin-bottom: 200px;
+    
+}
+
+#left{
+    position: absolute;
+    left: 10%;
+    height: fit-content;
+    color: #333333;
+}   
+
+#right input{
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 5px;  
+    margin: 5px; 
+}
+
+#right h3{
+    color: #333333
+}
+
+#btn {
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
+
+footer{
+    padding: 5px 5%;
+    width: 100%;
+    position: absolute;
+    bottom: -200;
+    font-size: small;
+    background-color: white;
+}
+
+footer p{
+    padding-bottom: 5px;
+}
+
+.line{
+    border-bottom: 1px solid #eeeeee;
+}

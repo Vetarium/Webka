@@ -1,0 +1,181 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(var(--b3f,250,250,250),1);;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+
+   
+}
+
+#or {
+
+    color: #b5b5b5;
+    font-family: sans-serif;
+    font-size: medium;
+
+}
+
+.Part-left{
+    position:absolute;   
+    left: 18%;
+    top: 5%;
+    width: 600px;
+    
+    
+}
+
+.Part-right{
+    position: absolute;
+    right: 18%;
+    top: 5%;
+}
+
+img {
+    
+    width: 55%;
+}
+
+
+.Sign-up{
+    background-color:  white;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+    text-align: center;
+    padding: 2% 5%;
+    margin: 2% 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign-up h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+
+.Sign-up h2{
+    color: #b5b5b5;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.Sign-up h3{
+    color: #b5b5b5;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+
+
+input{
+    margin: 10px 0px;
+    width: 100%;
+    padding: 1%;
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fb-logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    
+    
+}
+
+#f-log{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px; 
+    color: white;
+    margin-right: 10px;
+
+
+
+}
+
+
+.fb-btn{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    padding-left: 5%;
+    padding-right:5%;
+    
+    width:  fit-content;
+    height: fit-content;
+
+   
+}
+
+.next-btn {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+    padding: 3% 8%;
+    width:  100%;
+
+
+}
+
+footer{
+    text-align: center;
+    padding: 3% 20px;
+    position: relative;
+    top: 100vh;
+    width: 100%;
+
+}
+
+footer a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#rights{
+    font-size: small;
+    color: #a3a3a3;
+}

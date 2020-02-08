@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+}
+
+
+header{
+    z-index: 10;
+    color: white;
+    width: 100%;
+    top: 0px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: left   ;
+}
+#back {
+    position: absolute;
+    
+}
+#btn {
+
+    
+    position: relative;
+    margin-left: 580px;
+    margin-top: 16px;
+    border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
+    border-color: white;
+    background-color: #2b3137;
+    color: white;
+}
+
+header img{
+    z-index: 10;
+    margin: 5px 0px 0px 5px;
+}
+
+header p{
+    z-index: 10;
+    vertical-align: center;
+}
+
+header a{
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+header a:visited{
+    color: white;
+}
+
+#sign-up{
+    position: absolute;
+    right: 13%;
+    width: 25%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 7% 10px;
+}
+
+#sign-up input{
+    width: 95%;
+    padding-top: 10px;
+    margin: 10px 0px;
+}
+
+#sign-up label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#sign-up h3{
+    font-weight: normal;
+    font-size: small;
+}
+
+#submit{
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background-color: #009500;
+    font-size: larger;
+    color:white;
+}
+
+#submit:hover{
+    box-shadow: 5px 5px 15px black;
+}
+
+#left-text{
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 15%;
+    margin: 10% 20px;
+}
+
+#left-text h1{
+    font-size: 64px;
+}
+
+#left-text p{
+    width: 40%;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 15px;
+}
